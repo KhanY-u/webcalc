@@ -1,0 +1,88 @@
+body {
+    height: 1000px;
+    font-size: 20px;
+    font-family: fantasy;
+    margin: 0px;
+    min-width: 300px;
+    cursor: url('picture/mouse.png');
+}
+
+.bg {
+    background-image: url("picture/background.jpg");
+    height: 100%;
+}
+
+#first {
+    margin: 0px;
+    height: 150px;
+}
+
+#first #logo {
+    background: red;
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+
+#first #name {
+    margin-left: 40px;
+    height: 150px;
+    float: left;
+    width: 1250px;
+    text-align: center;
+    background: yellowgreen;
+}
+
+#second {
+    margin-top: 30px;
+    float: left;
+    width: 1450px;
+    height: 800px;
+}
+
+#second #_1 {
+    height: 600px;
+    width: 800px;
+    float: left;
+}
+
+#second #_2 {
+    height: 300px;
+    width: 650px;
+    background: yellowgreen;
+    float: left;
+}
+
+#second #_1 #top {
+    width: 800px;
+    height: 300px;
+}
+
+#second #_1 #top #left {
+    width: 400px;
+    height: 300px;
+    float: left;
+}
+
+#second #_1 #top #right {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+
+#second #_1 #bot {
+    width: 800px;
+    height: 300px;
+}
+
+#second #_1 #bot #left {
+    width: 400px;
+    height: 300px;
+    float: left;
+}
+
+#second #_1 #bot #right {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
